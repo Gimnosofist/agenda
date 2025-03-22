@@ -1,0 +1,88 @@
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 80vh;
+    width: 100%; 
+}
+
+.table-box {
+    width: 100%; 
+    max-width: 1200px; 
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table-responsive {
+    width: 100%; 
+    overflow-x: auto;
+}
+
+table {
+    width: 100%; 
+}
+
+td img {
+    max-width: 100px;
+    height: auto;
+}
+
+.btn {
+    margin: 5px; 
+}
+
+.edit-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.edit-box {
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.img-preview {
+    display: block;
+    margin: 0 auto 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.reportes-container {
+    display: block; 
+    width: 100%; 
+    margin: 0 auto; 
+}
+
+.reportes-container {
+    width: 100%; 
+    margin: 0 auto;
+}
+
+.reportes-box {
+    padding: 30px;
+    padding-left: 1px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+    display: flex; 
+    gap: 20px; 
+}
+.reportes-box {
+    margin-bottom: 2px;
+}
+
+
+
+
