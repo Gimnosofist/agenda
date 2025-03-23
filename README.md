@@ -40,18 +40,5 @@ La veracidad del correo electrónico deberá ser validada usando el API de mailb
 ![app/api/agenda_tech/{tecnologia}](apiGET02.png)
 
 
-## Relaciones.
 
-+-------------------+      +------------------------+      +----------------+
-|   programadores   |      |tecnologias_programador |------|  tecnologias   |
-|-------------------|      |------------------------|      |----------------|
-| id (PK)           |---|  | id (PK)                |  |---| id (PK)        |
-| nombre            |   |--| programador_id (FK)    |  |   | tecnologia     |
-| email             |      | tecnologia_id (FK)     |--|   | status         |
-| telefono          |      +------------------------+      +----------------+
-| foto              |
-| fecha_alta        |
-| fecha_update      |
-| status            |
-+-------------------+
 
